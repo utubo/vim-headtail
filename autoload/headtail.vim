@@ -32,7 +32,7 @@ function! s:TextObj(type) abort
 endfunction
 
 function! headtail#Map(headkey, tailkey) abort
-  for l:m in ['nnoremap', 'onoremap', 'xnoremap']
+  for l:m in ['nmap', 'omap', 'vmap']
     for l:i in ['a', 'i']
       execute $'{m} {a:headkey}{l:i} <Plug>(to-head){l:i}'
       execute $'{m} {a:tailkey}{l:i} <Plug>(to-tail){l:i}'
