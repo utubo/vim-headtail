@@ -48,7 +48,7 @@ Installation
 	Example with dein
 >
 	call dein#add('utubo/vim-headtail')
-	HeadTailMap [  ]
+	HeadTailMap [ ]
 <
 	You can type `[it` to jump to the head of inner of html-tag.
 
