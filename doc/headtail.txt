@@ -34,7 +34,7 @@ INTERFACE			|headtail-interface|
 ==============================================================================
 INTRODUCTION					*headtail-introduction*
 
-*headtail* is a Vim plugin to move cursor to head or tail of textobj.
+*vim-headtail* is a Vim plugin to move cursor to head or tail of textobj.
 
 Latest version:
 https://github.com/utubo/vim-headtail.vim
