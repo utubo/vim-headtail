@@ -10,7 +10,7 @@ function! headtail#ToHeadOrTail(a) abort
 endfunction
 
 function! s:TextObj(type) abort
-  if s:save_a =~# 'o' || s:save_a =~# 'x'
+  if s:save_a =~# 'o' || s:save_a =~# 'v'
     call setpos('.', s:save_p)
     normal v
   endif
