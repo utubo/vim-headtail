@@ -9,10 +9,6 @@ function s:suite.before()
   HeadTailMap [ ]
 endfunction
 
-function s:suite.after()
-  call feedkeys("\<ESC>")
-endfunction
-
 function s:suite.before_each()
   normal! ggdG
   call append(0, '<html>')
@@ -26,6 +22,9 @@ function s:suite.before_each()
   set ft=html
 endfunction
 
+function s:suite.after_each()
+  call feedkeys("\<ESC>")
+endfunction
 "}}}
 
 function s:suite.Normal()
